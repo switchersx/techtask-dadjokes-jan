@@ -1,0 +1,7 @@
+minikube delete ; minikube start ; minikube addons enable ingress
+
+k apply -f dadjokes.yaml
+
+k apply -f ingress.yaml
+
+minikube tunnel

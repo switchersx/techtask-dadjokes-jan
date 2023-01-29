@@ -1,0 +1,28 @@
+This test is primarily designed to give you an opportunity to demonstrate your technical skills.
+
+The task:
+
+The aim of the task is to get the `yesinteractive/dadjokes` container running in [Minikube](https://minikube.sigs.k8s.io/docs/), with the `ingress` addon enabled, `minikube addons enable ingress`.
+
+The solution to this task should not require any external resources outside of Minikube (and optionally Helm).
+
+The aims:
+
+    • All resources should be created in a `sre-techtask` namespace.
+    • Write the Kubernetes specs to create a minimum of a namespace, deployment, service, and ingress. Along with anything else you feel should be included/required in ensure HA.
+    • Provide documentation or a script that will deploy your resources to Minikube and confirm successful deployment.
+
+
+The verifications: 
+
+    • Application can be deployed by invoking a single command.
+    • All pods are running and stable.
+    • Application is accessible from the host machine via URL.
+
+
+Optional: 
+
+    • Use [Helm](https://helm.sh/docs/) to define and deploy the application to Minikube.
+    • Define a Makefile with targets for deploying the application.
+    • A customisable target namespace for all application resources.
+
