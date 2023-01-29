@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: sre-techtask
+  labels:
+    name: sre-techtask
